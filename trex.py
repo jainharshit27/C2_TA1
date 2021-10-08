@@ -13,7 +13,6 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            sys.exit()
   
         
     pygame.draw.rect(screen, (100, 100, 100), dino_rect)
