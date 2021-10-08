@@ -14,7 +14,9 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
   
-        
+    # Reduce 1 from cactus_rect.x
+    # Create a condition to make the rectangle reappear
+    
     pygame.draw.rect(screen, (100, 100, 100), dino_rect)
     pygame.draw.rect(screen, (100, 100, 100), cactus_rect)
     pygame.draw.rect(screen, (100, 100, 100), ground_rect)
